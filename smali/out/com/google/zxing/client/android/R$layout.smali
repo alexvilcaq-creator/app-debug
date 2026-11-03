@@ -1,0 +1,43 @@
+.class public final Lcom/google/zxing/client/android/R$layout;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/zxing/client/android/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "layout"
+.end annotation
+
+
+# static fields
+.field public static custom_dialog:I = 0x7f0b0020
+
+.field public static notification_action:I = 0x7f0b0068
+
+.field public static notification_action_tombstone:I = 0x7f0b0069
+
+.field public static notification_template_custom_big:I = 0x7f0b006a
+
+.field public static notification_template_icon_group:I = 0x7f0b006b
+
+.field public static notification_template_part_chronometer:I = 0x7f0b006c
+
+.field public static notification_template_part_time:I = 0x7f0b006d
+
+.field public static zxing_barcode_scanner:I = 0x7f0b0072
+
+.field public static zxing_capture:I = 0x7f0b0073
+
+
+# direct methods
+.method private constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
